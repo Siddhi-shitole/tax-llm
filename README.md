@@ -140,7 +140,7 @@ cd [repository-directory]
 pip install pandas numpy re paddleocr fitz Pillow torch
 
 pip install paddlepaddle paddleocr
-
+```
 
 ## Usage Instructions
 ### 1. Prepare Your PDF
@@ -150,16 +150,21 @@ If your PDF has a different name, modify the pdf_path variable in get_ocr_data.p
 
 ### 2. Configure Page Range
 Edit the following variables in get_ocr_data.py to specify which pages to process:
+
+```bash
 start_page = 28  # First page to process (1-based index)
 end_page = 28    # Last page to process
+```
 
 ### 3. Run the Pipeline
 Execute the scripts in order:
 
-    1.python get_ocr_data.py
-    2.python classifying_words.py
-    3.python hierarchical_clustering.py
-    4.python tarrif_paragraphs.py
+```bash
+    python get_ocr_data.py
+    python classifying_words.py
+    python hierarchical_clustering.py
+    python tarrif_paragraphs.py
+```
 
 ### 4. View Results
 The final output will be saved as: final_tables.csv
