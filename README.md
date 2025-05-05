@@ -129,17 +129,6 @@ The pipeline consists of four main components that work sequentially:
 - Python 3.8 or higher
 - `pip` package manager
 
-### Installation Steps
-
-Clone the repository:
-
-```bash
-git clone [repository-url]
-cd [repository-directory]
-
-pip install pandas numpy re paddleocr fitz Pillow torch
-
-pip install paddlepaddle paddleocr
 
 ---
 # Usage Instructions
@@ -172,6 +161,17 @@ Intermediate files are also created at each step for debugging:
     2. cleaned_classified_words.csv - After classification
     3. new_hierarchical_commodities.csv - After hierarchy processing
 
+---
+### Installation Steps
 
+Clone the repository:
+
+```bash
+git clone [repository-url]
+cd [repository-directory]
+
+pip install pandas numpy re paddleocr fitz Pillow torch
+
+pip install paddlepaddle paddleocr
 
 
