@@ -141,7 +141,8 @@ pip install pandas numpy re paddleocr fitz Pillow torch
 
 pip install paddlepaddle paddleocr
 
-## Usage Instructions
+---
+# Usage Instructions
 ### 1. Prepare Your PDF
 Place your tariff document PDF in the project directory. The default filename expected is: 1950 Schedule A (no OCR).pdf
 
@@ -150,7 +151,6 @@ If your PDF has a different name, modify the pdf_path variable in get_ocr_data.p
 ### 2. Configure Page Range
 Edit the following variables in get_ocr_data.py to specify which pages to process:
 
-```bash
 start_page = 28  # First page to process (1-based index)
 end_page = 28    # Last page to process
 
@@ -158,7 +158,6 @@ end_page = 28    # Last page to process
 ### 3. Run the Pipeline
 Execute the scripts in order:
 
-```bash
     python get_ocr_data.py
     python classifying_words.py
     python hierarchical_clustering.py
