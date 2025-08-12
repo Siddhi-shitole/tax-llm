@@ -2,8 +2,8 @@ import pandas as pd
 import re
 
 # === Config ===
-OCR_CSV = r'output/cleaned_classified_words.csv'
-FINAL_CSV = r'output/final-table.csv'
+OCR_CSV = r'new-work/output/cleaned_classified_words.csv'
+FINAL_CSV = r'new-work/output/final-table.csv'
 
 # === Patterns ===
 commodity_pattern = re.compile(r'^\d{4}\s?\d{3}$')

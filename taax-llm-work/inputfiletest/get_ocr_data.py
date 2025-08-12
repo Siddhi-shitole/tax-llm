@@ -15,7 +15,7 @@ from typing import List
 ###############################################
 # Configuration
 ###############################################
-pdf_path = r'1950 Schedule A (no OCR).pdf'
+pdf_path = r'1950 Schedule A (scanned by ILL, Reed College).pdf'
 output_word_coords = r'new-work/output/ocr_word_coords.csv'
 output_cleaned_csv = r'new-work/output/cleaned_classified_words.csv'
 start_page = 28

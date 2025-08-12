@@ -6,9 +6,9 @@ from collections import Counter
 
 
 # Configuration
-RAW_CSV = r'output/ocr_word_coords.csv'  # Raw OCR data
-CLEAN_CSV = r'output/cleaned_classified_words.csv'  # Path to your clean words CSV
-OUTPUT_CSV = r'output/final-table.csv'
+RAW_CSV = r'new-work/output/ocr_word_coords.csv'  # Raw OCR data
+CLEAN_CSV = r'new-work/output/cleaned_classified_words.csv'  # Path to your clean words CSV
+OUTPUT_CSV = r'new-work/output/final-table.csv'
 
 COLUMNS = [
     'SCHEDULE A COMMODITY NUMBER',

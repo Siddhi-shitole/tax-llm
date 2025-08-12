@@ -2,8 +2,8 @@ import pandas as pd
 import re
 
 # Updated to work with CSV files and new 6-column structure
-CLEAN_CSV = r'output/cleaned_classified_words.csv'
-FINAL_CSV = r'output/final-table.csv'
+CLEAN_CSV = r'new-work/output/cleaned_classified_words.csv'
+FINAL_CSV = r'new-work/output/final-table.csv'
 
 # Enhanced rate patterns to capture various formats including OCR artifacts
 rate_patterns = [
@@ -295,5 +295,11 @@ def add_rates():
     print(f"Found trade rates: {list(set(commodity_rates_trade.values()))}")
     print(f"File now uses new 6-column structure: {expected_columns}")
 
-if __name__ == "__main__":
+def main():
+    """
+    Entry point for the script.
+    """
     add_rates()
+
+if __name__ == "__main__":
+    main()

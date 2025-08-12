@@ -6,9 +6,9 @@ import re
 # =========================
 # Configuration
 # =========================
-INPUT_CSV = r"output/cleaned_classified_words.csv"
-FINAL_TABLE_CSV = r"output/final-table.csv"
-OUTPUT_TXT = r"output/formatted_commodities.txt"
+INPUT_CSV = r"new-work/output/cleaned_classified_words.csv"
+FINAL_TABLE_CSV = r"new-work/output/final-table.csv"
+OUTPUT_TXT = r"new-work/output/formatted_commodities.txt"
 Y_PROXIMITY_THRESHOLD = 50  # Max vertical distance to consider lines as continuations
 
 # =========================
