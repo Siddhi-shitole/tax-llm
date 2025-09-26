@@ -3,6 +3,7 @@ import pandas as pd
 from io import StringIO
 import tempfile
 import os
+import re
 
 import rate_of_duty05 as rd
 
